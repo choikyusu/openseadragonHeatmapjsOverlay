@@ -1,2 +1,2 @@
 # openseadragonHeatmapjsOverlay
-[demo](https://choikyusu.github.io/openseadragonHeatmapjsOverlay/heatmap.html)
+[demo](http://choikyusu.github.io/openseadragonHeatmapjsOverlay/heatmap.html)
