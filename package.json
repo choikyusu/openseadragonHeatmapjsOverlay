@@ -1,0 +1,30 @@
+{
+  "name": "openseadragon-heatmapjs-overlay",
+  "version": "0.0.1",
+  "description": "An OpenSeadragon plugin that adds heatmap.js canvas overlay capability.",
+  "main": "openseadragon-heatmapjs-overlay.js",
+  "dependencies": {
+    "openseadragon": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/choikyusu/openseadragonHeatmapjsOverlay.git"
+  },
+  "files": [ ],
+  "keywords": [
+    "openseadragon",
+    "plugin",
+    "canvas",
+    "overlay"
+  ],
+ "author": "choikyusu",
+  "license": "BSD-3-Clause",
+  "bugs": {
+      "url": "https://github.com/choikyusu/openseadragonHeatmapjsOverlay/issues"
+  },
+  "homepage": "https://github.com/choikyusu/openseadragonHeatmapjsOverlay"
+}
