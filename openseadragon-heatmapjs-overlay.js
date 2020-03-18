@@ -95,7 +95,7 @@ HeatmapOverlay.prototype.update = function () {
             localMax = value;
         }
        
-        var viewportPoint  = this._viewer.viewport.imageToViewportCoordinates(new OpenSeadragon.Point(entry.x, entry.y), true);
+        var viewportPoint  = this._viewer.viewport.imageToViewportCoordinates(entry.x, entry.y);
         var imagePoint = this._viewer.viewport.pixelFromPoint(viewportPoint , true);
 		
 		//ignore outter point
