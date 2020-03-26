@@ -1,0 +1,12 @@
+// heroku 반영 절차 - windows 버전
+
+npm install -g heroku
+heroku login
+git init
+git add .
+git commit -m "first commit"
+heroku git:remote -a choikyusu
+git push heroku master
+heroku ps:scale web=1
+
+heroku logs --tail
